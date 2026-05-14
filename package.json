@@ -1,0 +1,22 @@
+{
+  "name": "fluxpad",
+  "version": "1.0.0",
+  "packageManager": "npm@10.9.3",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

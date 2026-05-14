@@ -1,0 +1,27 @@
+node_modules
+.turbo
+
+# Next.js
+apps/frontend/.next/
+apps/frontend/out/
+apps/frontend/next-env.d.ts
+
+# Production
+apps/frontend/build/
+
+# Misc
+.DS_Store
+*.pem
+*.tsbuildinfo
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Env files
+.env*
+
+# Vercel
+.vercel
