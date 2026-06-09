@@ -25,3 +25,9 @@ yarn-error.log*
 
 # Vercel
 .vercel
+
+# Hardhat
+apps/contracts/artifacts/
+apps/contracts/cache/
+apps/contracts/typechain-types/
+apps/contracts/.hardhat_vars

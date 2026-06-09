@@ -9,7 +9,7 @@ import { Rocket, Wallet, Clock, TrendingDown, Info } from 'lucide-react'
 const MOCK_AUCTION = {
   startPrice: 10.0,
   minPrice: 2.0,
-  startTime: Math.floor(Date.now() / 1000) - 3600, // Started 1 hour ago
+  startTime: 1781000000, // Fixed timestamp (approx June 9, 2026) to avoid hydration mismatch
   duration: 86400, // 24 hours
   totalTokens: 1000000,
   tokenSymbol: 'FLUX'
